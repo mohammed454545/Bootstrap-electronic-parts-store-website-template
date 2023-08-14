@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملف الشخصي</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="img/logo.png" alt="logo" id="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="signup.html">تسجيل الدخول</a></li>
+                <li><a href="profile_view.html">الملف الشخصي</a></li>
+                <li><a href="categories.html">المنتجات</a></li>
+                <li><a href="cart.html">عربة التسوق</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><input id="search" type="text" placeholder="Search..">
+                    <button id="search" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-info">
+            <h2>الملف الشخصي</h2>
+            <form>
+                <label for="phone">الصورة الشخصية:</label>
+                <input type="file" id="phone" name="phone" value="123456789" required>
+
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" value="اسم المستخدم" required>
+
+                <label for="name">اسم المستخدم:</label>
+                <input type="text" id="name" name="user_name" value="اسم المستخدم" disabled>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" value="user@example.com" disabled>
+
+                <label for="address">العنوان:</label>
+                <input type="text" id="address" name="address" value="العنوان" required>
+
+                <label for="phone">رقم الهاتف:</label>
+                <input type="tel" id="phone" name="phone" value="123456789" required>
+
+                <label for="phone">وصف:</label>
+                <input type="tel" id="phone" name="phone" value="123456789" required>
+
+                <button type="submit">حفظ التغييرات</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2023</p>
+    </footer>
+</body>
+
+</html>
